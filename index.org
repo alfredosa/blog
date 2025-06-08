@@ -1,0 +1,73 @@
+#+title: Blog
+#+author:    Alfredo Suarez
+#+email:     alfiexco@icloud.com
+
+#+begin_quote
+Unfortunately I had to decomission my kubernetes cluster and my previous page died died. This is a temporary replacement. --- Alfredo
+#+end_quote
+
+* About Me
+
+I have a dog, and I write code. Usually hating OOP and unnecessary complexity.
+
+* Now
+
+I'm currently trying to get a PhD in Kubernetes, and master Golang. I'm writting my own operators, learning about hardcore encryption, NAT hole punching, and how to make a good cup of coffee. I just got a 3d printer and I am obsessed with it. So basically trying to learn CAD software, and how to make pretty forms.
+
+I officially migrated to Emacs and I am trying to learn lisp ☯️ absolute blast. I'm an Emacs evangelist now.
+
+* a random attempt at a video game, in rust.
+
+Even Though it was an incomplete project, I had so much fun, I learned a lot about math in video games, about making my own models and so on.
+
+
+** 3D Game Demo
+
+[[youtube:NmeHPIWHXTk&t=1s&ab_channel=AlfredoSu%C3%A1rez][Crawler Baller 3D]]
+
+** 2D Game Demo
+
+[[youtube:3PdQiAADhhs&ab_channel=AlfredoSuárez][Crawler Baller 2D]]
+
+* Favorite Languages
+
+I am currently really enjoing writting go as a sr software dev at a retail chain. For some reason I am really into infrastructure, whenever we get to interact with it I am always super enthusiastic about it. Here you can find some of the things I've been working on.For a while I've been tinkering with lower-level langs, and in particular I feel really attracted to the following:
+
+| C                                                                                                                    | Rust                                                                                                                                                                             | Zig                                                                                                                                                                                                       |
+|----------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Taught me about bytes, memory, and threading. Through its power, it showed me how we can truly control the computer. | Taught me about strict typing, memory safety, and a different way of programming. A unique hybrid of functional and OO paradigms that was entirely new to me coming from Python. | Showed me that memory management can be simpler, that you don't need excessive abstraction to harness power and control. With proper enums, pattern matching, and seamless C integration, I fell in love. |
+
+I mean look at this:
+
+#+begin_src zig
+// Check if a button was clicked
+for (self.buttons) |button| {
+    if (button.isMouseOverButton() and ray.IsMouseButtonPressed(ray.MOUSE_BUTTON_LEFT)) {
+        self.currentTool = button.tool;
+        switch (button.tool) {
+            .Text => std.debug.print("Text clicked", .{}),
+            .Shapes => self.shapes.start_selecting(),
+            .Erase => std.debug.print("Erase clicked", .{}),
+            .Normal => std.debug.print("Normal clicked", .{}),
+        }
+        button_clicked = true;
+        break;
+    }
+}
+#+end_src
+
+* Favorite Movie
+
+Blood in, Blood Out. My dog is named after Mikklo. It's a silly movie, but I love how intense such a movie and story can be.
+
+* My Dog
+
+Mikklo is adopted, he is a homie from the streets, often scared about a lot of things outside the house, but happiest in the park, chasing a squeaky ball. I love him to death 😀
+
+#+begin_quote
+The vet said he was a labrador, but I think he was high at the moment of diagnosis...
+#+end_quote
+
+some of my favorite quotes:
+
+what even is life when you can't write lisp?
